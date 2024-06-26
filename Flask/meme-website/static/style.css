@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Set the background color to black */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #4CAF50;
+    text-shadow: 2px 2px 4px #aaa;
+    text-align: center; /* Centralize the h1 element */
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    text-align: center; /* Centralize p elements */
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    border: 5px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.subreddit {
+    font-size: 1em;
+    color: #555;
+    text-align: center; /* Centralize subreddit text */
+}

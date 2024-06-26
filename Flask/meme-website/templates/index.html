@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Meme Website</title>
+		<meta name="viewport" content=width=device-width, initial-scale=1">
+		<meta http-equiv="refresh" content="30; url=http://127.0.0.1:5000"/>
+		<link rel="stylesheet" type="css" href="{{ url_for('static', filename='style.css') }}">
+
+	</head>
+
+	<body>
+		<h1>Welcome to MEME-TROPOLIS</h1>
+		<p>Memes will refresh every 30 seconds</p>
+		<p><img src="{{meme_pic}}"></p>
+		<p>subreddit: {{subreddit}}</p>
+	</body>
+</html>
